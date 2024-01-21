@@ -1,6 +1,6 @@
 from django import forms
 
-class LoginForms(forms.Form):
+class LoginForms(forms.Form):#Criar formulário do 0 sem  model
     nome_login = forms.CharField(
         label="Nome de login",
         required=True,
